@@ -17,12 +17,12 @@ def start():
     check_for_py()
 
     print(f"{a}\n\n")
-    print("Welcome to KillerXMusic, lets start setting up!\n\n")
+    print("Welcome to YukkiMusicBot, lets start setting up!\n\n")
     print("Cloning the repository...\n\n")
-    os.system("rm -rf KillerX-Music")
-    os.system("git clone https://github.com/TeamKillerX/KillerX-Music")
+    os.system("rm -rf YukkiMusicBot")
+    os.system("git clone https://github.com/gsweq11/YukkiMusicBot")
     print("\n\nDone")
-    os.chdir("KillerX-Music")
+    os.chdir("YukkiMusicBot")
     clear_screen()
     print(a)
     print("\n\nLet's start!\n")
@@ -55,7 +55,7 @@ def start():
         "MUSIC_BOT_NAME",
         "MONGO_DB_URI",
     ]
-    all_done = "# KillerXMusic Environment Variables.\n# Do not delete this file.\n\n"
+    all_done = "# YukkiMusicBot Environment Variables.\n# Do not delete this file.\n\n"
     for i in varrs:
         all_done += do_input(i)
     clear_screen()
@@ -81,7 +81,7 @@ def start():
         print("Skipped!")
     clear_screen()
     print(a)
-    print("\nStarting KillerXMusic...")
+    print("\nStarting YukkiMusicBot...")
     os.system("sh startup")
 
 
