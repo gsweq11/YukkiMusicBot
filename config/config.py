@@ -9,7 +9,6 @@
 
 import re
 import sys
-import env
 from os import getenv
 
 from dotenv import load_dotenv
