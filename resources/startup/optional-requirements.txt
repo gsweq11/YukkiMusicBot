@@ -1,5 +1,4 @@
 aiofiles
-bs4
 aiohttp
 asyncio
 dnspython
@@ -11,16 +10,15 @@ lyricsgenius
 motor
 pillow
 psutil
+py-tgcalls==0.8.6
 pykeyboard
+pyrogram==1.4.16
 python-dotenv
-pyyaml==5.4
-PyYAML
-psycopg2-binary
+pyyaml==5.3.1
 requests
-spotipy
 speedtest-cli
+spotipy
 tgcrypto
-wget
 youtube-search
 youtube-search-python
-git+https://github.com/Randi356/yt-dlp
+yt-dlp
