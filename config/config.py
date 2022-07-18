@@ -28,7 +28,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "90")
+    getenv("DURATION_LIMIT", "200")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -65,18 +65,18 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/TheYukki
+    "SUPPORT_CHANNEL", "https://t.me/sadnesstalk"
+)  # Example:- https://t.me/sadnesstalk 
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
-)  # Example:- https://t.me/YukkiSupport
+    "SUPPORT_GROUP", "https://t.me/sadnesstalk"
+)  # Example:- https://t.me/sadnesstalk 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "600")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "f51dad0089144d93be494beb765dcc7a")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "65cba9c7757b440b8af29fdc4a81de47")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
