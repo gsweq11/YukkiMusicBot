@@ -21,7 +21,7 @@ RUN chmod 777 /app/
 
 # install requirements 
 RUN python3 -m pip install -U -r https://raw.githubusercontent.com/gsweq11/YukkiMusicBot/master/requirements.txt
-RUN python3 -m pip install --no-cache-dir -r https://raw.githubusercontent.com/gsweq11/YukkiMusicBot/master/resources/startup/optional-requirements.txt
+RUN python3 -m pip install --no-cache-dir -r https://raw.githubusercontent.com/TeamKillerX/KillerX-Music/dev/resources/startup/optional-requirements.txt
 
 # final run 
 CMD ["bash", "startup.sh"]
