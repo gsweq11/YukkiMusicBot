@@ -21,4 +21,4 @@ spotipy
 tgcrypto
 youtube-search
 youtube-search-python
-yt-dlp
+yt-dlp==2021.11.10.1
