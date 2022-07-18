@@ -28,4 +28,4 @@ echo "
                                                                                                                                                         
 "
 
-python3 -m KillerXMusic
+python3 -m YukkiMusic
