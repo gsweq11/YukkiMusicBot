@@ -13,8 +13,8 @@ pillow
 psutil
 pykeyboard
 python-dotenv
-pyyaml
-PyYAML
+pyyaml==5.3.1
+pyyaml==5.3.1
 psycopg2-binary
 requests
 spotipy
