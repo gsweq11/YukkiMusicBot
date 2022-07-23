@@ -21,5 +21,4 @@ spotipy
 tgcrypto 
 youtube-search
 youtube-search-python==1.4.6
-git+https://github.com/adityacheats/downloader@master
-git+https://github.com/subinps/pyrogram@inline-m
+yt-dlp
