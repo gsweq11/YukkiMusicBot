@@ -38,10 +38,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
-            ),
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            ),
+            )
         ],
     ]
     return buttons
@@ -54,10 +56,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
-            ),
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            ),
+            )
         ],
     ]
     return buttons
